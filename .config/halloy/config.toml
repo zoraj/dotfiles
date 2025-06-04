@@ -1,0 +1,24 @@
+# Halloy config.
+#
+# For a complete list of available options,
+# please visit https://halloy.chat/configuration/
+
+[servers.libera]
+nickname = "<ZNC-USER/ZNC-NETWORK>"
+server = "<ZNC-SERVER>"
+password = "<ZNC-PASSWORD>"
+port = <ZNC-PORT>
+dangerously_accept_invalid_certs = true
+
+[preview]
+enabled = false
+
+[buffer.server_messages.join]
+exclude = ["*"]
+
+# Disable all part messages
+[buffer.server_messages.part]
+enabled = false
+
+[buffer.server_messages.quit]
+enabled = false
