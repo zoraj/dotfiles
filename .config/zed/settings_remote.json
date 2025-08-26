@@ -1,0 +1,31 @@
+{
+    "lsp": {
+        "jdtls": {
+            "initialization_options": {
+                "settings": {
+                    "java": {
+                        "home": "/home/ubuntu/.sdkman/candidates/java/21.0.8-tem",
+                        "jdt": {
+                            "ls": {
+                                "lombokSupport": {
+                                    "enabled": true
+                                }
+                            }
+                        },
+                        "import": {
+                            "gradle": {
+                                "enabled": true
+                            },
+                            "maven": {
+                                "enabled": true
+                            }
+                        },
+                        "format": {
+                            "enabled": true
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
