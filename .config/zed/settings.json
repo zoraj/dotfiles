@@ -31,7 +31,7 @@
     "show_nav_history_buttons": true,
     "show_tab_bar_buttons": true
   },
-  "git_status": true,
+  "format_on_save": "on",
   "toolbar": {
     "breadcrumbs": true,
     "quick_actions": true,
@@ -51,5 +51,11 @@
         }
       }
     }
+  },
+  "minimap": {
+    "show": "always",
+    "thumb": "always",
+    "thumb_border": "left_open",
+    "current_line_highlight": null
   }
 }
