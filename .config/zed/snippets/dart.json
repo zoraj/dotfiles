@@ -1,0 +1,26 @@
+{
+  "flutter_screen": {
+    "prefix": "screen",
+    "body": [
+      "import 'package:flutter/material.dart';",
+      "",
+      "class ${1:ScreenName} extends StatelessWidget {",
+      "  const ${1:ScreenName}({super.key});",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return Scaffold(",
+      "      appBar: AppBar(",
+      "        title: const Text('${1:ScreenName}'),",
+      "        centerTitle: true,",
+      "      ),",
+      "      body: const Center(",
+      "        child: Text('${1:ScreenName} Screen'),",
+      "      ),",
+      "    );",
+      "  }",
+      "}"
+    ],
+    "description": "Flutter screen template with centered text"
+  }
+}
